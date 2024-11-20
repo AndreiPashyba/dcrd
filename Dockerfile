@@ -1,4 +1,4 @@
-FROM golang:1.11
+FROM golang:1.23.3
 
 WORKDIR /go/src/github.com/decred/dcrd
 COPY . .
